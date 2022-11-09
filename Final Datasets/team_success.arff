@@ -1,4 +1,18 @@
-teama,pacea,wona,losta,cumulativescorea,teamb,paceb,wonb,lostb,cumulativescoreb,winner
+@RELATION team_success
+
+@ATTRIBUTE teama {ATL,BOS,CHI,CHR,CLE,DAL,DEN,DET,GSW,HOU,IND,LAC,LAL,MEM,MIA,MIL,MIN,NJN,NOH,NYK,ORL,PHI,PHO,POR,SAC,SAS,SEA,TOR,UTA,WAS}
+@ATTRIBUTE pacea numeric
+@ATTRIBUTE wona numeric
+@ATTRIBUTE losta numeric
+@ATTRIBUTE cumulativescorea numeric
+@ATTRIBUTE teamb {ATL,BOS,CHI,CHR,CLE,DAL,DEN,DET,GSW,HOU,IND,LAC,LAL,MEM,MIA,MIL,MIN,NJN,NOH,NYK,ORL,PHI,PHO,POR,SAC,SAS,SEA,TOR,UTA,WAS}
+@ATTRIBUTE paceb numeric
+@ATTRIBUTE wonb numeric
+@ATTRIBUTE lostb numeric
+@ATTRIBUTE cumulativescoreb numeric
+@ATTRIBUTE winner {0,1}
+
+@DATA
 ATL,93.94873,13,69,63680,BOS,95.735855,45,37,65720,0
 ATL,93.94873,13,69,63680,CHI,96.283737,47,35,63778,0
 ATL,93.94873,13,69,63680,CHR,96.20163,18,64,64207,0
