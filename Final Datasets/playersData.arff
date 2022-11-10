@@ -17,7 +17,7 @@
 @attribute ftm integer
 @attribute tpa integer
 @attribute tpm integer
-@attribute class integer
+@attribute class {0,1}
 @data
 'ABDELAL01',256,3200,1465,283,563,846,85,71,69,247,484,1236,620,321,225,3,0,0
 'ABDULKA01',1560,57446,38387,2975,9394,17440,5660,1160,3189,2527,4657,28307,15837,9304,6712,18,1,1
