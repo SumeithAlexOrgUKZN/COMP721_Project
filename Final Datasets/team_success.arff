@@ -10,7 +10,7 @@
 @ATTRIBUTE wonb numeric
 @ATTRIBUTE lostb numeric
 @ATTRIBUTE cumulativescoreb numeric
-@ATTRIBUTE winner numeric
+@ATTRIBUTE winner {0,1}
 
 @DATA
 ATL,93.94873,13,69,63680,BOS,95.735855,45,37,65720,0
